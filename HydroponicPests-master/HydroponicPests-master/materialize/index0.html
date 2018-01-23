@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <title>Hydroponic Pests</title>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){
+
+        $('#michigan-pests-container').hide();
+        $('#predator-bugs-container').hide();
+
+
+        $('#michigan-pests').click(function(){
+          $('#common-pests-container').hide();
+          $('#predator-bugs-container').hide();
+          $('#michigan-pests-container').show();
+        })
+
+        $('#predator-bugs').click(function(){
+          $('#common-pests-container').hide();
+          $('#michigan-pests-container').hide();
+          $('#predator-bugs-container').show();
+        })
+
+        $('#common-pests').click(function(){
+          $('#michigan-pests-container').hide();
+          $('#predator-bugs-container').hide();
+          $('#common-pests-container').show();
+        })
+
+      });
+    </script>
+   </head>
+
+   <body>
+     <nav>
+       <h2 class="center-align">Hydroponic Pests</h2>
+     </nav>
+     <div class="container black">
+       <div class="row">
+         <div class="teal col s12 m8 l8">
+           <h3>Main content</h3>
+           <p class="flow-text">When you build a hydroponic system of any size, you're going to have to deal with pests at some point. If you're looking for advice on how to protect your hydroponic garden and stop common pests like spider mites, fungus gnats and whiteflies, you're in the right place.</p>
+           <div class="divider"></div>
+            <div id="common-pests-container">
+              <a name="common-pests"></a>
+             <h4>Common Pests</h4>
+              <div class="row">
+               <div class="card-panel yellow col s6 m6 l6">
+                 <h5 class="card-title">Aphids</h5>
+                 <div class="card-image">
+                   <img class="responsive-img" src="images/aphid1.jpg">
+                 </div>
+                 <div class="card-content">
+                   <p class="flow-text">Also known as greenflies or plant lice, these sap-sucking insects are loved by ants, less so by gardeners.</p>
+                   <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Signs & Symptoms</div>
+                      <div class="collapsible-body"><span>Aphids often congregate near stems at the tops of plants. Ants are drawn to aphids, so a gathering of ants is a strong indication.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Prevention</div>
+                      <div class="collapsible-body"><span>Avoid cross-contamination: don't use soil or tools from your exterior garden in your hydroponic set-up. Aphids like synthetic fertilizers.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Treatment</div>
+                      <div class="collapsible-body"><span>Use insecticidal soap. Water washes aphids away.</span></div>
+                    </li>
+                  </ul>
+                 </div>
+               </div>
+               <div class="card-panel yellow col s6 m6 l6">
+                 <h5>Whiteflies</h5>
+                 <div class="card-image">
+                   <div class="slideshow-container">
+
+                     <!-- Full-width images with number and caption text -->
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img1.jpg" style="width:100%">
+
+                     </div>
+
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img2.jpg" style="width:100%">
+
+                     </div>
+
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img3.jpg" style="width:100%">
+                     </div>
+
+                     <!-- Next and previous buttons -->
+                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                   </div>
+                   <br>
+
+                   <!-- The dots/circles -->
+                   <div style="text-align:center">
+                     <span class="dot" onclick="currentSlide(1)"></span>
+                     <span class="dot" onclick="currentSlide(2)"></span>
+                     <span class="dot" onclick="currentSlide(3)"></span>
+                   </div>
+                 </div>
+                 <div class="card-content">
+                   <p class="flow-text">Whiteflies can be persistent pests in hydroponic gardens.</p>
+                   <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Signs & Symptoms</div>
+                      <div class="collapsible-body"><span>Whiteflies feed on leaves' undersides. Their feeding causes yellowing of leaves and white spots.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Prevention</div>
+                      <div class="collapsible-body"><span>Whiteflies multiply faster in warm conditions.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Treatment</div>
+                      <div class="collapsible-body"><span>Whiteflies will relocate to nearby plants if disturbed, so apply insecticide to all plants in the area of an infestation. Scraping the eggs off leaves' undersides and applying neem oil will significantly disrupt nymph growth.</span></div>
+                    </li>
+                  </ul>
+                 </div>
+               </div>
+              </div>
+              <div class="divider"></div>
+              <div class="row">
+               <div class="card-panel yellow col s6 m6 l6">
+                 <h5 class="card-title">Spider Mites</h5>
+                 <div class="card-image">
+
+                          <!-- Slideshow container -->
+                   <div class="slideshow-container">
+
+                     <!-- Full-width images with number and caption text -->
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img1.jpg" style="width:100%">
+
+                     </div>
+
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img2.jpg" style="width:100%">
+
+                     </div>
+
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img3.jpg" style="width:100%">
+                     </div>
+
+                     <!-- Next and previous buttons -->
+                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                   </div>
+                   <br>
+
+                   <!-- The dots/circles -->
+                   <div style="text-align:center">
+                     <span class="dot" onclick="currentSlide(1)"></span>
+                     <span class="dot" onclick="currentSlide(2)"></span>
+                     <span class="dot" onclick="currentSlide(3)"></span>
+                   </div>
+                 </div>
+                 <div class="card-content">
+                   <p class="flow-text">These tiny spiders can be hard to detect, but are a danger to plants all the same.</p>
+                   <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Signs & Symptoms</div>
+                      <div class="collapsible-body"><span>Spider mites spin webbing that can often be easier to spot than the insects themselves. If you see webbing, try wiping the underside of a leaf with a tissue and check it for red streaks.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Prevention</div>
+                      <div class="collapsible-body"><span>Spider mites enjoy low humidity and breed faster in high temperatures.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Treatment</div>
+                      <div class="collapsible-body"><span>Isolate affected plants. Pyrethrin stops them from feeding. Washing leaves in warm, soapy water is effective. Insecticides work, but they can breed resistance over time.</span></div>
+                    </li>
+                  </ul>
+                 </div>
+               </div>
+               <div class="card-panel yellow col s6 m6 l6">
+                 <h5>Thrips</h5>
+                 <div class="card-image">
+                   <img class="responsive-img" src="images/thrip1.jpg">
+                 </div>
+                 <div class="card-content">
+                   <p class="flow-text">Thrips are slender but hungry pests.</p>
+                   <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Signs & Symptoms</div>
+                      <div class="collapsible-body"><span>Thrips cause browning and drying out of leaves. Look for yellow spots and small dark metallic specks on leaves (thrip feces).</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Prevention</div>
+                      <div class="collapsible-body"><span>Thrips multiply and mature faster in warm conditions.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Treatment</div>
+                      <div class="collapsible-body"><span>Thrips can be removed by hand, but their eggs (small, white and sticky) should be wiped from leaves. Apply insecticidal soap to affected plants.</span></div>
+                    </li>
+                  </ul>
+                 </div>
+               </div>
+              </div>
+            </div>
+
+
+            <div id="michigan-pests-container">
+              <a name="michigan-pests"></a>
+             <h4>Michigan Pests</h4>
+              <div class="row">
+               <div class="card-panel yellow col s6 m6 l6">
+                 <h5 class="card-title">Scale</h5>
+                 <div class="card-image">
+                   <img class="responsive-img" src="images/aphid1.jpg">
+                 </div>
+                 <div class="card-content">
+                   <p class="flow-text">Scale insects get their name from the females of the type, which look like fish or reptile scales.</p>
+                   <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Signs & Symptoms</div>
+                      <div class="collapsible-body"><span>Scale bugs affix themselves to stems or the undersides of leaves, and will look like peculiar growths more than insects. They feed on sap.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Prevention</div>
+                      <div class="collapsible-body"><span>Scale bugs are vulnerable to systemic pesticides that poison plants' sap, or predator bugs like parasitic wasps and coccinellid beetles..</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Treatment</div>
+                      <div class="collapsible-body"><span>Their covering makes them resistant to contact insecticides. Remove them and treat affected plants with horticultural oils or insecticidal soap.</span></div>
+                    </li>
+                  </ul>
+                 </div>
+               </div>
+               <div class="card-panel yellow col s6 m6 l6">
+                 <h5>Mealybugs</h5>
+                 <div class="card-image">
+                   <div class="slideshow-container">
+
+                     <!-- Full-width images with number and caption text -->
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img1.jpg" style="width:100%">
+
+                     </div>
+
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img2.jpg" style="width:100%">
+
+                     </div>
+
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img3.jpg" style="width:100%">
+                     </div>
+
+                     <!-- Next and previous buttons -->
+                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                   </div>
+                   <br>
+
+                   <!-- The dots/circles -->
+                   <div style="text-align:center">
+                     <span class="dot" onclick="currentSlide(1)"></span>
+                     <span class="dot" onclick="currentSlide(2)"></span>
+                     <span class="dot" onclick="currentSlide(3)"></span>
+                   </div>
+                 </div>
+                 <div class="card-content">
+                   <p class="flow-text">Mealybugs are a kind of unarmored scale bug that like the warm.</p>
+                   <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Signs & Symptoms</div>
+                      <div class="collapsible-body"><span>Mealybugs stick to leaf stem joints. They excrete a white grainy powder.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Prevention</div>
+                      <div class="collapsible-body"><span>Cultivate ladybugs: they're voracious mealybug predators.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Treatment</div>
+                      <div class="collapsible-body"><span>Scrape off all bugs from affected areas and treat them with insecticidal soap. .</span></div>
+                    </li>
+                  </ul>
+                 </div>
+               </div>
+              </div>
+              <div class="divider"></div>
+              <div class="row">
+               <div class="card-panel yellow col s6 m6 l6">
+                 <h5 class="card-title">Tarnished plant bugs</h5>
+                 <div class="card-image">
+
+                          <!-- Slideshow container -->
+                   <div class="slideshow-container">
+
+                     <!-- Full-width images with number and caption text -->
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img1.jpg" style="width:100%">
+
+                     </div>
+
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img2.jpg" style="width:100%">
+
+                     </div>
+
+                     <div class="mySlides fade">
+                       <img class="responsive-img" src="images/img3.jpg" style="width:100%">
+                     </div>
+
+                     <!-- Next and previous buttons -->
+                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                   </div>
+                   <br>
+
+                   <!-- The dots/circles -->
+                   <div style="text-align:center">
+                     <span class="dot" onclick="currentSlide(1)"></span>
+                     <span class="dot" onclick="currentSlide(2)"></span>
+                     <span class="dot" onclick="currentSlide(3)"></span>
+                   </div>
+                 </div>
+                 <div class="card-content">
+                   <p class="flow-text">These voracious pests will eat almost anything.</p>
+                   <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Signs & Symptoms</div>
+                      <div class="collapsible-body"><span>Tarnished plant bugs are known to deform leaf tips and stem joins with their excretions.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Prevention</div>
+                      <div class="collapsible-body"><span>Weeding and application of insecticide every season can prevent infestation.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Treatment</div>
+                      <div class="collapsible-body"><span>Clean off nearby plant debris, then spray with insecticide. There's evidence they don't like sprinkler irrigation.</span></div>
+                    </li>
+                  </ul>
+                 </div>
+               </div>
+               <div class="card-panel yellow col s6 m6 l6">
+                 <h5>Imported cabbage worms</h5>
+                 <div class="card-image">
+                   <img class="responsive-img" src="images/thrip1.jpg">
+                 </div>
+                 <div class="card-content">
+                   <p class="flow-text">These caterpillars will feed on anything from the mustard family.</p>
+                   <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Signs & Symptoms</div>
+                      <div class="collapsible-body"><span>Look for dispersed holes in leaves.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Prevention</div>
+                      <div class="collapsible-body"><span>The larvae don't like temperatures below 50 degrees Fahrenheit.</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header yellow"><i class="material-icons right-aligned">arrow_drop_down_circle</i>Treatment</div>
+                      <div class="collapsible-body"><span>Spray the caterpillars with insecticidal soap.</span></div>
+                    </li>
+                  </ul>
+                 </div>
+               </div>
+              </div>
+            </div>
+            <!-- end of Michigan pests container -->
+        </div>
+         <div class="red col s12 m4 l4">
+           <h3>Sidebar</h3>
+           <div class="divider"></div>
+             <div class="row">
+               <a href="#common-pests">
+                <div class="card-panel yellow button" id="common-pests">
+                  <h5 class="card-title">Common Pests</h5>
+                  <p class="flow-text">Pests you're likely to find in any hydroponic garden.</p>
+               </div>
+             </a>
+           </div>
+           <div class="divider"></div>
+             <div class="row">
+              <div class="card-panel yellow button" id="michigan-pests">
+                <h5 class="card-title">Michigan Pests</h5>
+                <p class="flow-text">Pests you're more likely to find only in Michigan or North East gardens.</p>
+
+              </div>
+            </div>
+           <div class="divider"></div>
+           <div class="row">
+            <div class="card-panel yellow button" id="predator-bugs">
+              <h5 class="card-title">Predator Bugs</h5>
+                <p class="flow-text">Bugs you can use for pre-emptive (or sometimes emergency) pest control.</p>
+           </div>
+         </div>
+       </div>
+
+
+     </div>
+     <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <script type="text/javascript" src="js/materialize.js"></script>
+     <script type="text/javascript">
+       var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+   showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+   showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+   var i;
+   var slides = document.getElementsByClassName("mySlides");
+   var dots = document.getElementsByClassName("dot");
+   if (n > slides.length) {slideIndex = 1}
+   if (n < 1) {slideIndex = slides.length}
+   for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+   }
+   for (i = 0; i < dots.length; i++) {
+       dots[i].className = dots[i].className.replace(" active", "");
+   }
+   slides[slideIndex-1].style.display = "block";
+   dots[slideIndex-1].className += " active";
+  }
+</script>
+
+   </body>
+ </html>
